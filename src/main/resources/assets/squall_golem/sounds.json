@@ -1,0 +1,47 @@
+{
+  "squall_golem_attack": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "squall_golem:squall_golem_attack_1",
+        "stream": false
+      }
+    ]
+  },
+  "squall_golem_idle": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "squall_golem:squall_golem_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "squall_golem_power_on": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "squall_golem:squall_golem_power_on",
+        "stream": false
+      }
+    ]
+  },
+  "squall_golem_hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "squall_golem:squall_golem_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "squall_golem_death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "squall_golem:squall_golem_death",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "mod_elements": [
+    {
+      "name": "Squallgolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "squallgolem",
+      "path": "~/mobs/squallgolem"
+    },
+    {
+      "name": "AttackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attack_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/squallgolem/Conditions"
+    },
+    {
+      "name": "Activeresonancecrystal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activeresonancecrystal",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Attackprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attackprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/squallgolem"
+    },
+    {
+      "name": "Damagemain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damagemain",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/squallgolem"
+    },
+    {
+      "name": "SquallgolemOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squallgolem_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/squallgolem"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "squall_golem_attack",
+      "files": [
+        "squall_golem_attack_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "squall_golem_idle",
+      "files": [
+        "squall_golem_idle_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "squall_golem_power_on",
+      "files": [
+        "squall_golem_power_on"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "squall_golem_hurt",
+      "files": [
+        "squall_golem_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "squall_golem_death",
+      "files": [
+        "squall_golem_death"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.squall_golem_hurt": "",
+      "item.squall_golem.squallgolem_spawn_egg": "Squall golem Spawn Egg",
+      "block.squall_golem.activeresonancecrystal": "Active resonance crystal",
+      "subtitles.squall_golem_power_on": "",
+      "subtitles.squall_golem_sounds": "",
+      "subtitles.squall_golem_death": "",
+      "subtitles.squall_golem_attack": "",
+      "entity.squall_golem.squallgolem": "Squall golem",
+      "subtitles.squall_golem_idle": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "mobs",
+        "children": [
+          {
+            "name": "squallgolem",
+            "children": [
+              {
+                "name": "Conditions",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "blocks",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "squall_golem",
+    "modName": "squall golem",
+    "version": "1.0.0",
+    "author": "ys-03, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.squallgolem"
+  },
+  "mcreatorVersion": 202200119518
+}
