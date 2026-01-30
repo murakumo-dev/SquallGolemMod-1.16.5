@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "squall_golem:blocks/clystal",
+    "up": "squall_golem:blocks/clystal",
+    "north": "squall_golem:blocks/clystal",
+    "east": "squall_golem:blocks/clystal",
+    "south": "squall_golem:blocks/clystal",
+    "west": "squall_golem:blocks/clystal",
+    "particle": "squall_golem:blocks/clystal"
+  }
+}
